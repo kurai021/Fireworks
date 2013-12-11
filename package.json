@@ -1,0 +1,17 @@
+{
+  "name": "Twitter_Fireworks",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+	  "express": "3.4.2",
+	  "jade": "*",
+	  "stylus": "*",
+	  "nib": "*",
+	  "coffee-script": "*",
+	  "socket.io": "*",
+	  "ntwitter": "*"
+  }
+}
