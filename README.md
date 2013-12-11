@@ -1,19 +1,6 @@
-<<<<<<< HEAD
-# Twitter_Fireworks
+Twitter Fireworks is based in [Paul Lewis' Fireworks](https://github.com/paullewis/Fireworks) but removing the interaction with the mouse / touchpad to react to every tweet made with the word "christmas" in real time
 
-## Objective
-
-
-
-## Usage
-
-
-
-## Developing
-
-
-
-### Tools
+Libs: Coffee-script, Jade, Stylus, Socket.io, nTwitter
 
 Created with [Nodeclipse v0.5](https://github.com/Nodeclipse/nodeclipse-1)
  ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
