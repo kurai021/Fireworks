@@ -64,20 +64,21 @@ var Fireworks = (function() {
     var socket;
     var num_tweets = 0;
     
-    socket = io.connect('/', {'connect timeout': 1000});
+    socket = io.connect('/');
     
     socket.on('tweet', function (data){
     	
     	var tw = document.getElementById("tweets");
     	
-    	tw.innerHTML = "<div class='tweet'><div class='message'>" + data.data;
+    	tw.innerHTML = "<div class='tweet'><div class='message'>" + data.text;
+
+		//randomStyle(tw); 
     	
     	createFirework();
     	num_tweets++;
     	
     });
     
-
     // and now we set off
     update();
   }
